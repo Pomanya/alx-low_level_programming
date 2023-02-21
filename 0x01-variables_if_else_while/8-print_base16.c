@@ -17,6 +17,7 @@ int main(void)
 			putchar(i + 'w');
 		i++;
 	}
+
 	putchar('\n');
 	return (0);
 }
