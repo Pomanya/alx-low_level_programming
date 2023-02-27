@@ -14,10 +14,9 @@ int main(void)
 
 	while (i <= 4000000)
 	{
-		printf("%d\n", i);
+		printf("%d\n", sum);
 		sum += i;
 		t2 = i + t1;
-		i = t1;
 		t1 = t2;
 	}
 	printf("\n%d", sum);
