@@ -5,11 +5,21 @@
  * Return: always 0
  */
 
-int main(void)
-{
-	int i;
+#include <stdio.h>
 
-	i = 0;
-	positive_or_negative(i);
-	return (0);
+void check_sign(int num)
+{
+		if (num >= 0)
+		{
+			printf("The integer is positive\n");
+		else
+		{
+			printf("The integer is negative\n");
+		}
+		}
+		int main()
+		{
+			int number = -5;
+			check_sign(number);
+			return 0;
 }
